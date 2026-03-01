@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "AI-detective-Society"]
+	url = https://github.com/Thanuja92002/AI-detective-society.git
+	fetch = +refs/heads/*:refs/remotes/AI-detective-Society/*

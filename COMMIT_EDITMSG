@@ -1,0 +1,307 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   Autopsy_report.png
+#	new file:   Interrogation_notes.png
+#	new file:   MONA.jpeg
+#	new file:   clock.png
+#	new file:   detective.png
+#	new file:   detective_notes.png
+#	new file:   elise.mp3
+#	new file:   index.html
+#	new file:   interrogate.png
+#	new file:   lock.png
+#	new file:   mansion.jpeg
+#	new file:   mansion.png
+#	new file:   mystery.html
+#	new file:   news.png
+#	new file:   newspaper.png
+#	new file:   node_modules/.bin/esbuild
+#	new file:   node_modules/.bin/esbuild.cmd
+#	new file:   node_modules/.bin/esbuild.ps1
+#	new file:   node_modules/.bin/nanoid
+#	new file:   node_modules/.bin/nanoid.cmd
+#	new file:   node_modules/.bin/nanoid.ps1
+#	new file:   node_modules/.bin/rollup
+#	new file:   node_modules/.bin/rollup.cmd
+#	new file:   node_modules/.bin/rollup.ps1
+#	new file:   node_modules/.bin/vite
+#	new file:   node_modules/.bin/vite.cmd
+#	new file:   node_modules/.bin/vite.ps1
+#	new file:   node_modules/.package-lock.json
+#	new file:   node_modules/.vite/deps/_metadata.json
+#	new file:   node_modules/.vite/deps/package.json
+#	new file:   node_modules/@esbuild/win32-x64/README.md
+#	new file:   node_modules/@esbuild/win32-x64/esbuild.exe
+#	new file:   node_modules/@esbuild/win32-x64/package.json
+#	new file:   node_modules/@rollup/rollup-win32-x64-msvc/README.md
+#	new file:   node_modules/@rollup/rollup-win32-x64-msvc/package.json
+#	new file:   node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node
+#	new file:   node_modules/@types/estree/LICENSE
+#	new file:   node_modules/@types/estree/README.md
+#	new file:   node_modules/@types/estree/flow.d.ts
+#	new file:   node_modules/@types/estree/index.d.ts
+#	new file:   node_modules/@types/estree/package.json
+#	new file:   node_modules/esbuild/LICENSE.md
+#	new file:   node_modules/esbuild/README.md
+#	new file:   node_modules/esbuild/bin/esbuild
+#	new file:   node_modules/esbuild/install.js
+#	new file:   node_modules/esbuild/lib/main.d.ts
+#	new file:   node_modules/esbuild/lib/main.js
+#	new file:   node_modules/esbuild/package.json
+#	new file:   node_modules/nanoid/LICENSE
+#	new file:   node_modules/nanoid/README.md
+#	new file:   node_modules/nanoid/async/index.browser.cjs
+#	new file:   node_modules/nanoid/async/index.browser.js
+#	new file:   node_modules/nanoid/async/index.cjs
+#	new file:   node_modules/nanoid/async/index.d.ts
+#	new file:   node_modules/nanoid/async/index.js
+#	new file:   node_modules/nanoid/async/index.native.js
+#	new file:   node_modules/nanoid/async/package.json
+#	new file:   node_modules/nanoid/bin/nanoid.cjs
+#	new file:   node_modules/nanoid/index.browser.cjs
+#	new file:   node_modules/nanoid/index.browser.js
+#	new file:   node_modules/nanoid/index.cjs
+#	new file:   node_modules/nanoid/index.d.cts
+#	new file:   node_modules/nanoid/index.d.ts
+#	new file:   node_modules/nanoid/index.js
+#	new file:   node_modules/nanoid/nanoid.js
+#	new file:   node_modules/nanoid/non-secure/index.cjs
+#	new file:   node_modules/nanoid/non-secure/index.d.ts
+#	new file:   node_modules/nanoid/non-secure/index.js
+#	new file:   node_modules/nanoid/non-secure/package.json
+#	new file:   node_modules/nanoid/package.json
+#	new file:   node_modules/nanoid/url-alphabet/index.cjs
+#	new file:   node_modules/nanoid/url-alphabet/index.js
+#	new file:   node_modules/nanoid/url-alphabet/package.json
+#	new file:   node_modules/picocolors/LICENSE
+#	new file:   node_modules/picocolors/README.md
+#	new file:   node_modules/picocolors/package.json
+#	new file:   node_modules/picocolors/picocolors.browser.js
+#	new file:   node_modules/picocolors/picocolors.d.ts
+#	new file:   node_modules/picocolors/picocolors.js
+#	new file:   node_modules/picocolors/types.ts
+#	new file:   node_modules/postcss/LICENSE
+#	new file:   node_modules/postcss/README.md
+#	new file:   node_modules/postcss/lib/at-rule.d.ts
+#	new file:   node_modules/postcss/lib/at-rule.js
+#	new file:   node_modules/postcss/lib/comment.d.ts
+#	new file:   node_modules/postcss/lib/comment.js
+#	new file:   node_modules/postcss/lib/container.d.ts
+#	new file:   node_modules/postcss/lib/container.js
+#	new file:   node_modules/postcss/lib/css-syntax-error.d.ts
+#	new file:   node_modules/postcss/lib/css-syntax-error.js
+#	new file:   node_modules/postcss/lib/declaration.d.ts
+#	new file:   node_modules/postcss/lib/declaration.js
+#	new file:   node_modules/postcss/lib/document.d.ts
+#	new file:   node_modules/postcss/lib/document.js
+#	new file:   node_modules/postcss/lib/fromJSON.d.ts
+#	new file:   node_modules/postcss/lib/fromJSON.js
+#	new file:   node_modules/postcss/lib/input.d.ts
+#	new file:   node_modules/postcss/lib/input.js
+#	new file:   node_modules/postcss/lib/lazy-result.d.ts
+#	new file:   node_modules/postcss/lib/lazy-result.js
+#	new file:   node_modules/postcss/lib/list.d.ts
+#	new file:   node_modules/postcss/lib/list.js
+#	new file:   node_modules/postcss/lib/map-generator.js
+#	new file:   node_modules/postcss/lib/no-work-result.d.ts
+#	new file:   node_modules/postcss/lib/no-work-result.js
+#	new file:   node_modules/postcss/lib/node.d.ts
+#	new file:   node_modules/postcss/lib/node.js
+#	new file:   node_modules/postcss/lib/parse.d.ts
+#	new file:   node_modules/postcss/lib/parse.js
+#	new file:   node_modules/postcss/lib/parser.js
+#	new file:   node_modules/postcss/lib/postcss.d.mts
+#	new file:   node_modules/postcss/lib/postcss.d.ts
+#	new file:   node_modules/postcss/lib/postcss.js
+#	new file:   node_modules/postcss/lib/postcss.mjs
+#	new file:   node_modules/postcss/lib/previous-map.d.ts
+#	new file:   node_modules/postcss/lib/previous-map.js
+#	new file:   node_modules/postcss/lib/processor.d.ts
+#	new file:   node_modules/postcss/lib/processor.js
+#	new file:   node_modules/postcss/lib/result.d.ts
+#	new file:   node_modules/postcss/lib/result.js
+#	new file:   node_modules/postcss/lib/root.d.ts
+#	new file:   node_modules/postcss/lib/root.js
+#	new file:   node_modules/postcss/lib/rule.d.ts
+#	new file:   node_modules/postcss/lib/rule.js
+#	new file:   node_modules/postcss/lib/stringifier.d.ts
+#	new file:   node_modules/postcss/lib/stringifier.js
+#	new file:   node_modules/postcss/lib/stringify.d.ts
+#	new file:   node_modules/postcss/lib/stringify.js
+#	new file:   node_modules/postcss/lib/symbols.js
+#	new file:   node_modules/postcss/lib/terminal-highlight.js
+#	new file:   node_modules/postcss/lib/tokenize.js
+#	new file:   node_modules/postcss/lib/warn-once.js
+#	new file:   node_modules/postcss/lib/warning.d.ts
+#	new file:   node_modules/postcss/lib/warning.js
+#	new file:   node_modules/postcss/package.json
+#	new file:   node_modules/rollup/LICENSE.md
+#	new file:   node_modules/rollup/README.md
+#	new file:   node_modules/rollup/dist/bin/rollup
+#	new file:   node_modules/rollup/dist/es/getLogFilter.js
+#	new file:   node_modules/rollup/dist/es/package.json
+#	new file:   node_modules/rollup/dist/es/parseAst.js
+#	new file:   node_modules/rollup/dist/es/rollup.js
+#	new file:   node_modules/rollup/dist/es/shared/node-entry.js
+#	new file:   node_modules/rollup/dist/es/shared/parseAst.js
+#	new file:   node_modules/rollup/dist/es/shared/watch.js
+#	new file:   node_modules/rollup/dist/getLogFilter.d.ts
+#	new file:   node_modules/rollup/dist/getLogFilter.js
+#	new file:   node_modules/rollup/dist/loadConfigFile.d.ts
+#	new file:   node_modules/rollup/dist/loadConfigFile.js
+#	new file:   node_modules/rollup/dist/native.js
+#	new file:   node_modules/rollup/dist/parseAst.d.ts
+#	new file:   node_modules/rollup/dist/parseAst.js
+#	new file:   node_modules/rollup/dist/rollup.d.ts
+#	new file:   node_modules/rollup/dist/rollup.js
+#	new file:   node_modules/rollup/dist/shared/fsevents-importer.js
+#	new file:   node_modules/rollup/dist/shared/index.js
+#	new file:   node_modules/rollup/dist/shared/loadConfigFile.js
+#	new file:   node_modules/rollup/dist/shared/parseAst.js
+#	new file:   node_modules/rollup/dist/shared/rollup.js
+#	new file:   node_modules/rollup/dist/shared/watch-cli.js
+#	new file:   node_modules/rollup/dist/shared/watch.js
+#	new file:   node_modules/rollup/package.json
+#	new file:   node_modules/source-map-js/CHANGELOG.md
+#	new file:   node_modules/source-map-js/LICENSE
+#	new file:   node_modules/source-map-js/README.md
+#	new file:   node_modules/source-map-js/lib/array-set.js
+#	new file:   node_modules/source-map-js/lib/base64-vlq.js
+#	new file:   node_modules/source-map-js/lib/base64.js
+#	new file:   node_modules/source-map-js/lib/binary-search.js
+#	new file:   node_modules/source-map-js/lib/mapping-list.js
+#	new file:   node_modules/source-map-js/lib/quick-sort.js
+#	new file:   node_modules/source-map-js/lib/source-map-consumer.js
+#	new file:   node_modules/source-map-js/lib/source-map-generator.js
+#	new file:   node_modules/source-map-js/lib/source-node.js
+#	new file:   node_modules/source-map-js/lib/util.js
+#	new file:   node_modules/source-map-js/package.json
+#	new file:   node_modules/source-map-js/source-map.d.ts
+#	new file:   node_modules/source-map-js/source-map.js
+#	new file:   node_modules/vite/LICENSE.md
+#	new file:   node_modules/vite/README.md
+#	new file:   node_modules/vite/bin/openChrome.applescript
+#	new file:   node_modules/vite/bin/vite.js
+#	new file:   node_modules/vite/client.d.ts
+#	new file:   node_modules/vite/dist/client/client.mjs
+#	new file:   node_modules/vite/dist/client/client.mjs.map
+#	new file:   node_modules/vite/dist/client/env.mjs
+#	new file:   node_modules/vite/dist/client/env.mjs.map
+#	new file:   node_modules/vite/dist/node-cjs/publicUtils.cjs
+#	new file:   node_modules/vite/dist/node/chunks/dep-8a-6Quh6.js
+#	new file:   node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js
+#	new file:   node_modules/vite/dist/node/chunks/dep-ggdMrszO.js
+#	new file:   node_modules/vite/dist/node/chunks/dep-kjUoH5nk.js
+#	new file:   node_modules/vite/dist/node/chunks/dep-oIJQVJc7.js
+#	new file:   node_modules/vite/dist/node/cli.js
+#	new file:   node_modules/vite/dist/node/constants.js
+#	new file:   node_modules/vite/dist/node/index.d.ts
+#	new file:   node_modules/vite/dist/node/index.js
+#	new file:   node_modules/vite/index.cjs
+#	new file:   node_modules/vite/index.d.cts
+#	new file:   node_modules/vite/package.json
+#	new file:   node_modules/vite/types/customEvent.d.ts
+#	new file:   node_modules/vite/types/hmrPayload.d.ts
+#	new file:   node_modules/vite/types/hot.d.ts
+#	new file:   node_modules/vite/types/import-meta.d.ts
+#	new file:   node_modules/vite/types/importGlob.d.ts
+#	new file:   node_modules/vite/types/importMeta.d.ts
+#	new file:   node_modules/vite/types/metadata.d.ts
+#	new file:   node_modules/vite/types/package.json
+#	new file:   package-lock.json
+#	new file:   package.json
+#	new file:   rain.css
+#	new file:   record.png
+#	new file:   report.png
+#	new file:   script.js
+#	new file:   study.jpg
+#	new file:   style.css
+#	new file:   vault.css
+#	new file:   vault.html
+#	new file:   vault.jpeg
+#	new file:   will.png
+#	new file:   will_one.png
+#	new file:   will_two.png
+#
+# Changes not staged for commit:
+#	modified:   node_modules/.package-lock.json
+#	deleted:    node_modules/.vite/deps/_metadata.json
+#	deleted:    node_modules/.vite/deps/package.json
+#	modified:   node_modules/@esbuild/win32-x64/esbuild.exe
+#	modified:   node_modules/@esbuild/win32-x64/package.json
+#	deleted:    node_modules/@rollup/rollup-win32-x64-msvc/README.md
+#	deleted:    node_modules/@rollup/rollup-win32-x64-msvc/package.json
+#	deleted:    node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node
+#	deleted:    node_modules/@types/estree/LICENSE
+#	deleted:    node_modules/@types/estree/README.md
+#	deleted:    node_modules/@types/estree/flow.d.ts
+#	deleted:    node_modules/@types/estree/index.d.ts
+#	deleted:    node_modules/@types/estree/package.json
+#	modified:   node_modules/esbuild/bin/esbuild
+#	modified:   node_modules/esbuild/install.js
+#	modified:   node_modules/esbuild/lib/main.d.ts
+#	modified:   node_modules/esbuild/lib/main.js
+#	modified:   node_modules/esbuild/package.json
+#	modified:   node_modules/rollup/LICENSE.md
+#	modified:   node_modules/rollup/README.md
+#	modified:   node_modules/rollup/dist/bin/rollup
+#	modified:   node_modules/rollup/dist/es/getLogFilter.js
+#	deleted:    node_modules/rollup/dist/es/parseAst.js
+#	modified:   node_modules/rollup/dist/es/rollup.js
+#	modified:   node_modules/rollup/dist/es/shared/node-entry.js
+#	deleted:    node_modules/rollup/dist/es/shared/parseAst.js
+#	modified:   node_modules/rollup/dist/es/shared/watch.js
+#	modified:   node_modules/rollup/dist/getLogFilter.js
+#	modified:   node_modules/rollup/dist/loadConfigFile.js
+#	deleted:    node_modules/rollup/dist/native.js
+#	deleted:    node_modules/rollup/dist/parseAst.d.ts
+#	deleted:    node_modules/rollup/dist/parseAst.js
+#	modified:   node_modules/rollup/dist/rollup.d.ts
+#	modified:   node_modules/rollup/dist/rollup.js
+#	modified:   node_modules/rollup/dist/shared/fsevents-importer.js
+#	modified:   node_modules/rollup/dist/shared/index.js
+#	modified:   node_modules/rollup/dist/shared/loadConfigFile.js
+#	deleted:    node_modules/rollup/dist/shared/parseAst.js
+#	modified:   node_modules/rollup/dist/shared/rollup.js
+#	modified:   node_modules/rollup/dist/shared/watch-cli.js
+#	modified:   node_modules/rollup/dist/shared/watch.js
+#	modified:   node_modules/rollup/package.json
+#	modified:   node_modules/vite/LICENSE.md
+#	modified:   node_modules/vite/client.d.ts
+#	modified:   node_modules/vite/dist/client/client.mjs
+#	modified:   node_modules/vite/dist/client/client.mjs.map
+#	modified:   node_modules/vite/dist/node-cjs/publicUtils.cjs
+#	deleted:    node_modules/vite/dist/node/chunks/dep-8a-6Quh6.js
+#	deleted:    node_modules/vite/dist/node/chunks/dep-V3BH7oO1.js
+#	deleted:    node_modules/vite/dist/node/chunks/dep-ggdMrszO.js
+#	deleted:    node_modules/vite/dist/node/chunks/dep-kjUoH5nk.js
+#	deleted:    node_modules/vite/dist/node/chunks/dep-oIJQVJc7.js
+#	modified:   node_modules/vite/dist/node/cli.js
+#	modified:   node_modules/vite/dist/node/constants.js
+#	modified:   node_modules/vite/dist/node/index.d.ts
+#	modified:   node_modules/vite/dist/node/index.js
+#	modified:   node_modules/vite/index.cjs
+#	deleted:    node_modules/vite/index.d.cts
+#	modified:   node_modules/vite/package.json
+#	modified:   node_modules/vite/types/hot.d.ts
+#	deleted:    node_modules/vite/types/import-meta.d.ts
+#	modified:   node_modules/vite/types/importGlob.d.ts
+#	modified:   node_modules/vite/types/importMeta.d.ts
+#	modified:   package-lock.json
+#	modified:   package.json
+#
+# Untracked files:
+#	node_modules/rollup/dist/shared/watch-proxy.js
+#	node_modules/vite/dist/node/chunks/dep-197d0dbf.js
+#	node_modules/vite/dist/node/chunks/dep-68d1a114.js
+#	node_modules/vite/dist/node/chunks/dep-c423598f.js
+#	node_modules/vite/dist/node/chunks/dep-d279f98e.js
+#	node_modules/vite/dist/node/chunks/dep-f0c7dae0.js
+#

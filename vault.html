@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Protected Image</title>
+    <link rel="stylesheet" href="vault.css">
+</head>
+<body>
+    <div class="password-form">
+        <div class="form-container">
+            <input type="password" id="passwordInput" class="input-large">
+            <button id="submitButton" class="button-large">Unlock</button>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-button" id="closeButton">&times;</span>
+            <img id = "lightboxImage" src="will_two.png" alt="Image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murder Mystery</title>   
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 10px; /* Reduced padding for less distance */
+          text-align: center; /* Center-align the image and text */
+        }
+
+        .container {
+          text-align: center; /* Center the contents in the container */
+          margin-top: 80px; /* Add space between title and images */
+        }
+
+        .row {
+          background-color: rgba(0, 0, 0, 0.7); /* Translucent black background */
+          padding: 20px; /* Adjust padding for spacing */
+        }
+
+        /* Center the content within the row */
+        .row .column {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: white; /* Set the text color to white */
+          cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+        }
+
+        /* Increase the font size of the text in the middle */
+        .row .column h2 {
+          font-size: 32px; /* Adjust the font size as needed */
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        /* Style for the modal */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgba(0,0,0,0.7); /* Black background with transparency */
+        }
+
+        /* Modal content */
+        .modal-content {
+          background-color: #f4f4f4;
+          margin: 15% auto; /* 15% from the top and centered */
+          padding: 20px;
+          border: 1px solid #888;
+          width: 60%; /* Could be more or less, depending on screen size */
+        }
+    </style>
+</head>
+<body>
+  <a href="vault.html" class="top-right-image" target="_blank">
+    <img src="lock.png" alt="Small Image" style="width: 100px; height: 100px;">
+
+</a>
+
+
+    <div class="container">
+        <h1 class="title">Welcome to MH's study Room </h1>
+    </div>
+    
+    <div class="container">
+        <div class="row" id="audio-row"> <!-- Translucent black background added to this row -->
+            <div class="column" onclick="openModal()">
+                <img src="clock.png" alt="Clock" style="width: 300px; height: 410px;">
+            </div>
+            <div class="column">
+<img src="MONA.jpeg" alt="Small Image" style="width: 100px; height: 100px;">
+<h2> LNBI <br>EMBPVKL<br>BX<br>PZHLQZJ<br>LZRR<br>NZLC <br>0  1  1  2  3  5  8 <br></h2> <!-- Text content instead of an image -->
+            </div>
+            <div class="column" onclick="playAudio()">
+                <img src="record.png" alt="Record" style="width: 240px; height: 330px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Add an audio element with the sound source -->
+    <audio id="audio" src="elise.mp3"></audio>
+
+    <!-- Modal dialog for the first image -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span onclick="closeModal()" class="close">&times;</span>
+        <p>HM CVMMDNJI DN QZMT AJIY JA PNDIB OCZ OTKZRMDOZM<br>
+           OCVO RVN MZXZIOGT BDAOZY OJ CDH WT CDN NZXJIY NJI<br>
+           <br>
+           (10^2-200)/2+(2 x 45/3)+15   
+        </p>
+      </div>
+    </div>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+
+        function openModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "block";
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>

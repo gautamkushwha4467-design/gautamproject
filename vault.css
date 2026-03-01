@@ -1,0 +1,107 @@
+
+body {
+    background-image: url('vault.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.password-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically within the viewport */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Other CSS styles for your lightbox and close button go here */
+
+
+
+/* .image-container {
+    height: 1980px
+    1000px;
+    position: relative;
+    text-align: relative;
+} */
+
+.password-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-large {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.button-large {
+    margin: 10px;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    font-size: 18px;
+}
+
+/* Other CSS styles for your lightbox and close button go here */
+
+
+/* Other CSS styles for your lightbox and close button go here */
+
+
+#button{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 2px;
+    border-radius: 1px;
+}
+
+#lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.lightbox-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
