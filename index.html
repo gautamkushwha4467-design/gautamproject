@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="rain.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI DETECTIVE SOCIETY</title>
+
     <style>
         body {
             display: flex;
@@ -28,53 +32,68 @@
 
         .normal-button {
             margin-top: 20px;
-    
         }
 
-        /* Blue */
-.info {
-  border-color: orange;
-  color: orange;
+        .info {
+            border: 2px solid orange;
+            color: orange;
+            background: transparent;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
 
-}
-
-.info:hover {
-  background: orange;
-  color: white;
-}
-   
-        
+        .info:hover {
+            background: orange;
+            color: white;
+        }
     </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI DETECTIVE SOCIETY</title>
 </head>
+
 <body>
+
     <h1>AI Detective Society<br>The Harrison Enigma</h1>
-    
+
     <div class="button-container">
         <a href="newspaper.png" target="_blank" class="image-button">
-            <img src="news.png" alt="News" width="160" height="100"> <!-- Specify the size here -->
+            <img src="news.png" alt="News" width="160" height="100">
         </a>
+
         <a href="will_one.png" target="_blank" class="image-button">
-            <img src="will.png" alt="Will" width="160" height="100"> <!-- Specify the size here -->
+            <img src="will.png" alt="Will" width="160" height="100">
         </a>
     </div>
 
     <div class="button-container">
         <a href="detective_notes.png" target="_blank" class="image-button">
-            <img src="detective.png" alt="Detective" width="180" height="200"> 
+            <img src="detective.png" alt="Detective" width="180" height="200">
         </a>
+
         <a href="Interrogation_notes.png" target="_blank" class="image-button">
-            <img src="interrogate.png" alt="Interrogate"  width="180" height="200">
+            <img src="interrogate.png" alt="Interrogate" width="180" height="200">
         </a>
+
         <a href="Autopsy_report.png" target="_blank" class="image-button">
-            <img src="report.png" alt="Interrogate"  width="180" height="200">
+            <img src="report.png" alt="Report" width="180" height="200">
         </a>
     </div>
 
-    <a href="mystery.html" class="normal-button" target="_blank">
-        <button  class="btn info">Lets start</button>
-    </a>
+    <!-- Password Protected Button -->
+    <button class="info normal-button" onclick="checkPassword()">
+        Lets Start
+    </button>
+
+    <script>
+        function checkPassword() {
+            var password = prompt("Enter Password:");
+
+            if (password === "DAVINCI") {
+                window.location.href = "mystery.html";
+            } else {
+                alert("Incorrect Password!");
+            }
+        }
+    </script>
+
 </body>
 </html>
